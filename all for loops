@@ -19,39 +19,7 @@ const keysArray = Object.keys(myJsonObject);
 for (let key of keysArray) {
   console.log(key + ": " + myJsonObject[key]);
 }
-..............................................................................................
 
-
-Sure, I can provide examples of how you might iterate over a JSON object using different types of loops in JavaScript. Keep in mind that the most common and straightforward way to iterate over an object's properties in JavaScript is by using a for...in loop.
-
-Let's assume you have the following JSON object:
-
-json
-Copy code
-const myJsonObject = {
-  "name": "John Doe",
-  "age": 30,
-  "city": "New York",
-  "email": "john.doe@example.com"
-};
-Now, let's iterate over this object using different types of loops:
-
-1. for...in Loop:
-javascript
-Copy code
-for (let key in myJsonObject) {
-  console.log(key + ": " + myJsonObject[key]);
-}
-2. for...of Loop (Not applicable for objects directly, used for arrays):
-javascript
-Copy code
-// This loop is not suitable for iterating over objects directly
-// It's used for iterating over iterable objects like arrays
-// To iterate over object properties, we need to convert the object's keys to an array
-const keysArray = Object.keys(myJsonObject);
-for (let key of keysArray) {
-  console.log(key + ": " + myJsonObject[key]);
-}
 ...............................................................................................................
 3. forEach Loop:
 // This loop is not suitable for iterating over objects directly
