@@ -2,45 +2,56 @@
     "basics": {
       "name": "Thamaraikannan",
       "email": "thamaraikannnan2408@gmail.com",
-      "phone": "A phone number, with any formatting you like. E.g. (555) 555-5555.",
+      "phone": "90804573210,
       "degree": "",
       "website": "Your website URL",
-      "summary": "A one-sentence to one-paragraph overview text. Do not include any line-breaks.",
+      "summary": "I am a passionnate webdevloper .",
       "location": {
-        "address": "Your street address or mailing address",
-        "postalCode": "Your postal code (ZIP in the U.S.)",
-        "city": "Your city",
-        "region": "Your region (state in the U.S.)"
+        "address": "erode",
+        "postalCode": "638311",
+        "city": "erode",
+        "region": "hindu"
       },
    
     "education": [
       {
-        "institution": "Your school name",
-        "area": "Your area of study or degree earned",
-        "studyType": "",
-        "startDate": "Your start date, in YYYY-MM-DD format",
-        "endDate": "Your completion date, in YYYY-MM-DD format",
-        "gpa": "",
-        "courses": [
-          ""
-        ]
+        "institution": "KM college",
+        "area": "Thirupur",
+        "studyType": "BA English",
+        "startDate": "2020",
+        "endDate": "2023",
+        "gpa": "8",
       }
     ],
-   
-   
-    "skills": [
-      {
-        "name": "A category of job skills ( 'Programming Languages')",
-        "level": "",
-        "keywords": [
-          "Keywords under this category ( 'Java', 'C++', etc)"
-        ]
-      }
+          "experience": [
+        {
+            "position": "junior Software Engineer",
+            "company": "GUVI GEEKS NETWORK Pvt.",
+            "location": "IITM - Research park, Tharamani, Chennai, TamilNadu",
+            "startDate": "September 2023",
+            "endDate": "Present",
+            "responsibilities": [
+                "Led a team of developers in building and maintaining a complex web application.",
+                "Designed and implemented RESTful APIs for communication between frontend and backend.",
+                "Collaborated with product managers to define project requirements and timelines."
+            ]
+        }
+    ],
+           "skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "HTML/CSS",
+        "SQL",
+        "Git",
+        "RESTful APIs",
+        "Problem Solving",
+        "Communication"
     ],
     "languages": [
       {
-        "language": "Language name",
-        "fluency": "Your language fluency"
+        "language": "Tamil",
+        "fluency": "Tamil,English"
       }
     ],
    
